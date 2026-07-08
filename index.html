@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+ <head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260708-05-579f504"}');</script><script src="/_sdk/f432b76fb310b513.telemetry_sdk.js" integrity="sha512-9FJQ55EKmmqhyyik8BhrMVfm0+iYYfb8uOlRsjtkxJMEI97qOVEI4PnHohDjQAtvAep0IOEpdQ64eki0sz62ug=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo da Maquiagem</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+        body { font-family: 'Fraunces', serif; }
+        .ui-sans { font-family: 'Work Sans', sans-serif; }
+
+        @keyframes riseIn {
+            from { opacity: 0; transform: translateY(24px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .reveal { opacity: 0; animation: riseIn 0.9s cubic-bezier(0.16,1,0.3,1) forwards; }
+        .d1 { animation-delay: 0.15s; }
+        .d2 { animation-delay: 0.3s; }
+        .d3 { animation-delay: 0.45s; }
+        .d4 { animation-delay: 0.6s; }
+
+        .look-card { transition: transform 0.4s ease, box-shadow 0.4s ease; }
+        .look-card:hover { transform: translateY(-6px); box-shadow: 0 24px 48px -18px rgba(60,20,40,0.35); }
+        .look-card img { transition: transform 0.7s cubic-bezier(0.16,1,0.3,1); }
+        .look-card:hover img { transform: scale(1.06); }
+
+        .tip-card { transition: transform 0.3s ease, background 0.3s ease; }
+        .tip-card:hover { transform: translateY(-4px); }
+
+        html { scroll-behavior: smooth; }
+
+        .divider-line { height: 1px; background: linear-gradient(to right, transparent, rgba(120,60,80,0.4), transparent); }
+    </style>
+  <script src="/_sdk/0179d719c431a79e.data_sdk.js" type="text/javascript" integrity="sha512-OsRvJkI5GkC3MJQcgotQYotpzrMSX415GiKKgvYdxQEEkzD/fdchShO2FMSy0PJr/tiINMXOk5Vl2zAgg6bUiA=="></script>
+  <script src="/_sdk/9432170dbd2ae0df.resizing_sdk.js" type="text/javascript" integrity="sha512-FeT+58sb1f9ejWPWFjCbJvTT+SDwGV+ngrHUnlO7TWEOoqwOLj6p256kO3vOL7DIWl1cIgrobiof8v2bOigwPg=="></script>
+ </head>
+ <body data-template-id="__page-root" class="min-h-screen w-full text-stone-800"><!-- HERO -->
+  <header class="canva-header relative w-full overflow-hidden" style="min-height: calc(88 * min(var(--vh, 1vh), 1vh));"><img data-template-id="hero-image" loading="lazy" class="canva-image absolute inset-0 w-full h-full object-cover">
+   <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(40,10,25,0.35), rgba(40,10,25,0.75));"></div>
+   <div class="relative z-10 flex flex-col justify-center items-center text-center px-6 mx-auto max-w-3xl" style="min-height: calc(88 * min(var(--vh, 1vh), 1vh));"><span data-template-id="hero-eyebrow" class="canva-text reveal d1 ui-sans uppercase tracking-[0.35em] mb-6"></span>
+    <h1 data-template-id="hero-title" class="canva-text reveal d2 leading-[1.05] mb-6"></h1>
+    <p data-template-id="hero-subtitle" class="canva-text reveal d3 max-w-xl mb-10"></p><a href="#looks" data-template-id="hero-cta" class="canva-button reveal d4 ui-sans inline-block px-9 py-4 rounded-full font-semibold tracking-wide transition-transform hover:scale-105"></a>
+   </div>
+  </header>
+  <main class="w-full"><!-- LOOKS -->
+   <section id="looks" class="w-full py-20 md:py-28 px-6">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-16">
+      <h2 data-template-id="looks-title" class="canva-text mb-4"></h2>
+      <p data-template-id="looks-subtitle" class="canva-text ui-sans max-w-2xl mx-auto"></p>
+     </div>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-8"><!-- Natural -->
+      <article data-template-id="look-natural" class="canva-card look-card rounded-2xl overflow-hidden shadow-lg">
+       <div class="w-full h-72 overflow-hidden"><img data-template-id="look-natural-img" loading="lazy" class="canva-image w-full h-full object-cover">
+       </div>
+       <div class="p-7">
+        <h3 data-template-id="look-natural-title" class="canva-text mb-3"></h3>
+        <p data-template-id="look-natural-text" class="canva-text ui-sans leading-relaxed"></p>
+       </div>
+      </article><!-- Noturno -->
+      <article data-template-id="look-noturno" class="canva-card look-card rounded-2xl overflow-hidden shadow-lg">
+       <div class="w-full h-72 overflow-hidden"><img data-template-id="look-noturno-img" loading="lazy" class="canva-image w-full h-full object-cover">
+       </div>
+       <div class="p-7">
+        <h3 data-template-id="look-noturno-title" class="canva-text mb-3"></h3>
+        <p data-template-id="look-noturno-text" class="canva-text ui-sans leading-relaxed"></p>
+       </div>
+      </article><!-- Colorido -->
+      <article data-template-id="look-colorido" class="canva-card look-card rounded-2xl overflow-hidden shadow-lg">
+       <div class="w-full h-72 overflow-hidden"><img data-template-id="look-colorido-img" loading="lazy" class="canva-image w-full h-full object-cover">
+       </div>
+       <div class="p-7">
+        <h3 data-template-id="look-colorido-title" class="canva-text mb-3"></h3>
+        <p data-template-id="look-colorido-text" class="canva-text ui-sans leading-relaxed"></p>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <div class="max-w-6xl mx-auto px-6">
+    <div class="divider-line"></div>
+   </div><!-- DICAS -->
+   <section class="w-full py-20 md:py-28 px-6">
+    <div class="max-w-5xl mx-auto">
+     <h2 data-template-id="tips-title" class="canva-text text-center mb-16"></h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div data-template-id="tip-1" class="canva-card tip-card rounded-xl p-7 flex gap-5 items-start shadow-sm">
+       <div class="shrink-0 w-12 h-12 rounded-full flex items-center justify-center" style="background:#f6e3ea;color:#a8456b;">
+        <i data-lucide="droplet"></i>
+       </div>
+       <div>
+        <h3 data-template-id="tip-1-title" class="canva-text mb-2"></h3>
+        <p data-template-id="tip-1-text" class="canva-text ui-sans leading-relaxed"></p>
+       </div>
+      </div>
+      <div data-template-id="tip-2" class="canva-card tip-card rounded-xl p-7 flex gap-5 items-start shadow-sm">
+       <div class="shrink-0 w-12 h-12 rounded-full flex items-center justify-center" style="background:#f6e3ea;color:#a8456b;">
+        <i data-lucide="brush"></i>
+       </div>
+       <div>
+        <h3 data-template-id="tip-2-title" class="canva-text mb-2"></h3>
+        <p data-template-id="tip-2-text" class="canva-text ui-sans leading-relaxed"></p>
+       </div>
+      </div>
+      <div data-template-id="tip-3" class="canva-card tip-card rounded-xl p-7 flex gap-5 items-start shadow-sm">
+       <div class="shrink-0 w-12 h-12 rounded-full flex items-center justify-center" style="background:#f6e3ea;color:#a8456b;">
+        <i data-lucide="sun"></i>
+       </div>
+       <div>
+        <h3 data-template-id="tip-3-title" class="canva-text mb-2"></h3>
+        <p data-template-id="tip-3-text" class="canva-text ui-sans leading-relaxed"></p>
+       </div>
+      </div>
+      <div data-template-id="tip-4" class="canva-card tip-card rounded-xl p-7 flex gap-5 items-start shadow-sm">
+       <div class="shrink-0 w-12 h-12 rounded-full flex items-center justify-center" style="background:#f6e3ea;color:#a8456b;">
+        <i data-lucide="sparkles"></i>
+       </div>
+       <div>
+        <h3 data-template-id="tip-4-title" class="canva-text mb-2"></h3>
+        <p data-template-id="tip-4-text" class="canva-text ui-sans leading-relaxed"></p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- PRODUTOS -->
+   <section data-template-id="products-section" class="canva-section w-full py-20 md:py-28 px-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+     <div class="rounded-2xl overflow-hidden shadow-xl"><img data-template-id="products-image" loading="lazy" class="canva-image w-full h-full object-cover" style="min-height:20rem;">
+     </div>
+     <div>
+      <h2 data-template-id="products-title" class="canva-text mb-5"></h2>
+      <p data-template-id="products-subtitle" class="canva-text ui-sans leading-relaxed mb-6"></p>
+      <p data-template-id="products-text" class="canva-text ui-sans leading-relaxed"></p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer data-template-id="footer-section" class="canva-footer w-full py-10 px-6 text-center">
+   <p data-template-id="footer-text" class="canva-text ui-sans"></p>
+  </footer>
+  <script src="/_sdk/719055fef2a85d14.editing_sdk.js" integrity="sha512-kFqrdGgIiTOsu307feB5Cy3JVP9IayftsmCIZ0csxYBGuBmJQPhyvcnmKR8F0fTW97h5s1gAvz3SumI8zJ6OxQ=="></script>
+  <script>
+        lucide.createIcons();
+    </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1812e64e6c6de69',t:'MTc4MzUzNTY0OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
